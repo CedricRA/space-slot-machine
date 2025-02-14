@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Casino Slot Machine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="casino-container">
+        <div class="slot-machine">
+            <div class="slot-reels">
+                <div class="reel" id="reel1"></div>
+                <div class="reel" id="reel2"></div>
+                <div class="reel" id="reel3"></div>
+            </div>
+            <div class="game-info">
+                <div class="coins">Coins: <span id="coinCount">100</span></div>
+                <button id="spinButton">SPIN</button>
+            </div>
+        </div>
+    </div>
+    <audio id="spinSound" src="sounds/spin.mp3"></audio>
+    <audio id="winSound" src="sounds/win.mp3"></audio>
+    <audio id="loseSound" src="sounds/lose.mp3"></audio>
+    <script src="game.js"></script>
+</body>
+</html>
